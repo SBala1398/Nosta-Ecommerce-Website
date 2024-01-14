@@ -71,7 +71,7 @@ const products = [
     {
         id:9,
         name:"Floral Summer Shirt",
-        src:"products/f1.jpg",
+        src:"f1.jpg",
         desc:"",
         price:220,
         tags:["new","blue","summer"]

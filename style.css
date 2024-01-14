@@ -157,12 +157,12 @@ input:focus {
     display: flex;
     width: 100%;
     position: relative;
-
     border-radius: 5px;
 
 }
 
 .slider-image-container {
+    
     display: flex;
     transition: 2s;
 }
@@ -202,35 +202,34 @@ input:focus {
 }
 
 .slider-content h1 {
+    font-weight: lighter;
     font-size: 5vw;
 }
+    .slider-content h4{
+        font-weight: lighter;
+    }
+
 
 .slider-content button {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 10px;
     color: #fff;
     background-color: #ac0056;
     border: none;
 }
-
 /* Brands*/
 .brands {
     display: flex;
     margin-top: 2vw;
 
     justify-content: space-between;
-
-
 }
-
 .brands-icon {
     width: 4vw;
     align-items: center;
-
-
 }
 
 .brands-item {
@@ -523,7 +522,9 @@ input:focus {
     padding: 10px;
 }
 
+
 .products {
+    
     margin-top: 2vw;
     display: flex;
     flex-wrap: wrap;

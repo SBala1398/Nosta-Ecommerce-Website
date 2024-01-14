@@ -1,4 +1,4 @@
-import {products} from "./products.js";
+import {products} from "./product.js";
 
 
 var offerBar = document.querySelector(".offer-bar")
@@ -27,17 +27,19 @@ document.getElementById("side-navbar-close").addEventListener("click",()=>{
 
 
 
-var container=document.querySelector(".products")
-products.forEach((product)=>{
-    var createItem = document.createElement("div")
-    createItem.classList.add("product")
-    createItem.innerHTML=` <img style="width: 20vw;" src="img/${product.src}">
-    <h1>${product.name}</h1>
-    <p>₹${product.price}</p>
-    <tags style="visibility:hidden;">${product.tags}</tags>`
+var container = document.querySelector(".products");
 
-    container.append(createItem)
-})
+products.forEach((product) => {
+    var createItem = document.createElement("div");
+    createItem.classList.add("product");
+    createItem.innerHTML = `
+        <img style="width: 20vw;" src="img/products/${product.src}">
+        <h1>${product.name}</h1>
+        <p>₹${product.price}</p>
+        <div class="tags" style="visibility:hidden;">${product.tags.join(', ')}</div>`;
+
+    container.append(createItem);
+});
 
 var filterList =[]
 var tags = document.getElementsByName("tags")
