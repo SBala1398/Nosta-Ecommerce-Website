@@ -211,7 +211,7 @@ input:focus {
 }
     .slider-content h4{
         
-        color: hsl(0, 0%, 100%)0%, 100%);
+        color: #fff;
         
     }
 
@@ -540,7 +540,7 @@ input:focus {
 
 
 .contact-form {
-    background-color: #48012407;
+    background-color: #480125;
     color: #dddddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
