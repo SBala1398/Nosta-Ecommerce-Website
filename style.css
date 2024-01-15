@@ -205,13 +205,13 @@ input:focus {
 }
 
 .slider-content h1 {
-    color: #ac0056;
+    color: #ffffff;
     font-weight: lighter;
     font-size: 5vw;
 }
     .slider-content h4{
         
-        color: #ac0056;
+        color: hsl(0, 0%, 100%)0%, 100%);
         
     }
 
@@ -254,7 +254,7 @@ input:focus {
     justify-content: space-between;
     align-items: center;
     font-size: 1.5vw;
-    padding: 20px;
+    padding: 10px;
     background-color: #910149;
     color:#fff;
 }
@@ -376,7 +376,6 @@ input:focus {
 .limited-offer {
     display: flex;
     justify-content: center;
-
     align-items: center;
     background-color: #ac0056;
     color: #fff;
@@ -386,7 +385,7 @@ input:focus {
 
 .limited-offer img {
     width: 100%;
-    height: 100%100%;
+    height: 100%;
 }
 
 .limited-offer-text {
@@ -535,12 +534,13 @@ input:focus {
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 1vw;
+    color: #ac0056;
 }
 
 
 
 .contact-form {
-    background-color: #480125;
+    background-color: #48012407;
     color: #dddddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

@@ -55,10 +55,6 @@ tags.forEach((tag)=>{
     })
 })
 
-// var searchInput = document.getElementById("searchInput")
-// searchInput.addEventListener("keyup",function(){
-//     update()
-// })
 var filterList = [];
 var tags = document.querySelectorAll("input[name='tags']"); // Use querySelectorAll to get all elements with the name 'tags'
 console.log(tags);
