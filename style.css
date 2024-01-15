@@ -115,7 +115,7 @@ input:focus {
     left: 0;
     width: 50%;
     height: 100%;
-    background-color: #1D232C;
+    background-color:#ac0056 ;
     color: #E2E1E1;
     margin-left: -60%;
     transition-duration: 1s;
@@ -130,7 +130,7 @@ input:focus {
 
 .side-navbar-links a {
     text-decoration: none;
-    color: #E2E1E1;
+    color: white;
 }
 
 .side-navbar-links a:hover {
@@ -172,6 +172,7 @@ input:focus {
 }
 
 .slider-left-button {
+    
     position: absolute;
     top: 35%;
     left: 5%;
@@ -180,6 +181,7 @@ input:focus {
 
 .slider-left-button i {
     font-size: 10vw;
+    
 
 }
 
@@ -191,6 +193,7 @@ input:focus {
 
 .slider-right-button i {
     font-size: 10vw;
+    color: #ac0056;
 }
 
 .slider-content {
@@ -202,11 +205,14 @@ input:focus {
 }
 
 .slider-content h1 {
+    color: #ac0056;
     font-weight: lighter;
     font-size: 5vw;
 }
     .slider-content h4{
-        font-weight: lighter;
+        
+        color: #ac0056;
+        
     }
 
 
@@ -224,7 +230,7 @@ input:focus {
 .brands {
     display: flex;
     margin-top: 2vw;
-
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .brands-icon {
@@ -317,7 +323,7 @@ input:focus {
     border: none;
     top: 50%;
     left: 18%;
-    background-color: #ac0056;
+    background-color:#ac0056;
     z-index: 2;
 
 
@@ -348,7 +354,7 @@ input:focus {
     top: 3px;
     right: 3px;
     font-size: 2vw;
-    background-color: #ff0984;
+    background-color: #1acce4;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -372,7 +378,7 @@ input:focus {
     justify-content: center;
 
     align-items: center;
-    background-color: #630534e3;
+    background-color: #ac0056;
     color: #fff;
     padding: 20px;
     font-size: 2vw;
@@ -396,7 +402,7 @@ input:focus {
     font-size: 1.2vw;
     color: #1D232C;
     border-radius: 10px;
-    color: #910149;
+    color: #ac0056;
     border: none;
 
 
@@ -426,7 +432,7 @@ input:focus {
     padding: 11px;
     width: 80vw;
     margin-bottom: 10px;
-    border: solid #910149 3px;
+    border: solid #ac0056 3px;
 
 }
 
@@ -441,7 +447,6 @@ input:focus {
     font-size: 1.8vw;
     color: #E2E1E1;
     background-color: #ac0056;
-    border-radius: 10px;
     border: none;
     padding: 10px
 }
@@ -454,10 +459,10 @@ input:focus {
 }
 
 .footer {
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-top: 5vw;
-    padding: 40px;
-    background-color: #630433;
+    padding: 20px;
+    background-color:#ac0056;
     color: #E2E1E1;
     box-sizing: border-box;
 }
@@ -535,11 +540,11 @@ input:focus {
 
 
 .contact-form {
-    background-color: #1D232C;
+    background-color: #480125;
     color: #dddddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 60vw;
+    width: 70vw;
     margin: auto;
     padding: 5vw;
     padding-right: 10vw;
@@ -560,7 +565,7 @@ input:focus {
 .contact-form input[type="text"],
 .contact-form textarea {
     width: 100%;
-    padding: 2vw;
+    padding: 1vw;
     border: 1px solid #dddddd;
     border-radius: 4px;
     margin-bottom: 1vw;
@@ -574,14 +579,14 @@ input:focus {
 }
 
 .contact-form input[type="submit"] {
-
     color: #ffffff;
     border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #0056b3;
+    background-color: #ac0056;
+
+
 }
 
 .contact-form input[type="submit"]:hover {
