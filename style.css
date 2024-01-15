@@ -269,7 +269,7 @@ input:focus {
 }
 .servives-container-2 div {
     border-radius: 5px;
-    background-color: #ff09a141;
+    background-color: #ed38a8d2;
     padding: 10px;
 
 
@@ -305,24 +305,24 @@ input:focus {
     background-color: black;
     z-index: 2;
     top: 0;
-    opacity: 0.6;
+    opacity: 0.2;
 }
 
 
 
 .new-arrival button {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: 10px;
     font-size: 1.2vw;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
     border: none;
     top: 50%;
-    left: 18%;
+    left: 25%;
     background-color:#ac0056;
     z-index: 2;
 
