@@ -71,13 +71,10 @@ const products = [
     {
         id:9,
         name:"Floral Summer Shirt",
-        src:"f1.jpg",
+        src:"products/f1.jpg",
         desc:"",
         price:220,
-        tags:["new","blue","summer"]
+      tags:["new","blue","summer"]
     },
-
-
 ]
-
 export {products}
